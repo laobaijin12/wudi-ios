@@ -1,0 +1,205 @@
+PODS:
+  - Alamofire (4.9.1)
+  - ChatLayout (2.0.10):
+    - ChatLayout/Ultimate (= 2.0.10)
+  - ChatLayout/Core (2.0.10)
+  - ChatLayout/Extras (2.0.10):
+    - ChatLayout/Core
+  - ChatLayout/Ultimate (2.0.10):
+    - ChatLayout/Core
+    - ChatLayout/Extras
+  - CocoaAsyncSocket (7.6.5)
+  - DifferenceKit (1.3.0):
+    - DifferenceKit/Core (= 1.3.0)
+    - DifferenceKit/UIKitExtension (= 1.3.0)
+  - DifferenceKit/Core (1.3.0)
+  - DifferenceKit/UIKitExtension (1.3.0):
+    - DifferenceKit/Core
+  - Differentiator (5.0.0)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - JXSegmentedView (1.4.1)
+  - Kingfisher (8.0.1)
+  - KTVHTTPCache (3.0.2):
+    - CocoaAsyncSocket
+  - Lantern (1.1.5)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - lottie-ios (3.5.0)
+  - MJExtension (3.4.2)
+  - MJRefresh (3.7.9)
+  - "OpenIMSDK (3.8.3+hotfix.3.1)":
+    - MJExtension
+    - "OpenIMSDK/Callbacker (= 3.8.3+hotfix.3.1)"
+    - "OpenIMSDK/CallbackProxy (= 3.8.3+hotfix.3.1)"
+    - "OpenIMSDK/Interface (= 3.8.3+hotfix.3.1)"
+    - "OpenIMSDK/Model (= 3.8.3+hotfix.3.1)"
+    - "OpenIMSDK/Utils (= 3.8.3+hotfix.3.1)"
+    - "OpenIMSDKCore (= 3.8.3+3)"
+  - "OpenIMSDK/Callbacker (3.8.3+hotfix.3.1)":
+    - MJExtension
+    - OpenIMSDK/Model
+    - OpenIMSDK/Utils
+    - "OpenIMSDKCore (= 3.8.3+3)"
+  - "OpenIMSDK/CallbackProxy (3.8.3+hotfix.3.1)":
+    - MJExtension
+    - OpenIMSDK/Utils
+    - "OpenIMSDKCore (= 3.8.3+3)"
+  - "OpenIMSDK/Interface (3.8.3+hotfix.3.1)":
+    - MJExtension
+    - OpenIMSDK/Callbacker
+    - OpenIMSDK/CallbackProxy
+    - OpenIMSDK/Model
+    - "OpenIMSDKCore (= 3.8.3+3)"
+  - "OpenIMSDK/Model (3.8.3+hotfix.3.1)":
+    - MJExtension
+    - OpenIMSDK/Utils
+    - "OpenIMSDKCore (= 3.8.3+3)"
+  - "OpenIMSDK/Utils (3.8.3+hotfix.3.1)":
+    - MJExtension
+    - "OpenIMSDKCore (= 3.8.3+3)"
+  - "OpenIMSDKCore (3.8.3+3)"
+  - OUICore (0.0.1):
+    - Alamofire (= 4.9.1)
+    - Kingfisher (= 8.0.1)
+    - KTVHTTPCache (= 3.0.2)
+    - Localize-Swift (~> 3.2)
+    - lottie-ios (~> 3.0)
+    - "OpenIMSDK (= 3.8.3+3)"
+    - ProgressHUD
+    - RxCocoa (~> 6.0)
+    - RxDataSources
+    - RxKeyboard (~> 2.0)
+    - RxSwift (~> 6.5)
+    - SnapKit (~> 4.0)
+    - YYText
+    - ZLPhotoBrowser
+  - OUICoreView (0.0.1):
+    - KTVHTTPCache
+    - Lantern
+    - OUICore
+    - SnapKit
+    - ZFPlayer (~> 4.0)
+    - ZFPlayer/AVPlayer (~> 4.0)
+    - ZFPlayer/ControlView (~> 4.0)
+  - OUIIM (0.0.1):
+    - ChatLayout (= 2.0.10)
+    - DifferenceKit
+    - InputBarAccessoryView
+    - JXSegmentedView
+    - MJRefresh
+    - OUICore
+    - OUICoreView
+    - ProgressHUD
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - YYText
+  - ProgressHUD (14.1.1)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxKeyboard (2.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+  - SnapKit (4.2.0)
+  - YYText (1.0.7)
+  - ZFPlayer (4.1.4):
+    - ZFPlayer/Core (= 4.1.4)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
+  - ZLPhotoBrowser (4.7.4):
+    - ZLPhotoBrowser/Core (= 4.7.4)
+  - ZLPhotoBrowser/Core (4.7.4)
+
+DEPENDENCIES:
+  - OUICore (from `../openim-ios`)
+  - OUICoreView (from `../openim-ios`)
+  - OUIIM (from `../openim-ios`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ChatLayout
+    - CocoaAsyncSocket
+    - DifferenceKit
+    - Differentiator
+    - InputBarAccessoryView
+    - JXSegmentedView
+    - Kingfisher
+    - KTVHTTPCache
+    - Lantern
+    - Localize-Swift
+    - lottie-ios
+    - MJExtension
+    - MJRefresh
+    - OpenIMSDK
+    - OpenIMSDKCore
+    - ProgressHUD
+    - RxCocoa
+    - RxDataSources
+    - RxKeyboard
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - YYText
+    - ZFPlayer
+    - ZLPhotoBrowser
+
+EXTERNAL SOURCES:
+  OUICore:
+    :path: "../openim-ios"
+  OUICoreView:
+    :path: "../openim-ios"
+  OUIIM:
+    :path: "../openim-ios"
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ChatLayout: 004369aa1d00f6490660980c1af48a546388ea2e
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DifferenceKit: ab185c4d7f9cef8af3fcf593e5b387fb81e999ca
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  JXSegmentedView: cd73555ce2134d1656db2cb383ba9c2f36fb5078
+  Kingfisher: f08adbfe0e6806e9f5666e69b31fc4f17342d0cc
+  KTVHTTPCache: 5711692cdf9a5ecfe829b1e16577deb3ffe3dc86
+  Lantern: b192e7146c6d04e15e627f37281254a6a8593703
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  OpenIMSDK: c1880296ead605bcac2a289ad0aef9170fe6e6df
+  OpenIMSDKCore: 75caba22be8ee484011f367711178312bd64a17d
+  OUICore: 56f47222a2c53760c0b81b0fc75640cbe35bd394
+  OUICoreView: dd0bba4b7a7a29e5128b47d82cc9af51761f6a48
+  OUIIM: 41cd5abd5289f71aad1c07aaf18b1b3a048bd264
+  ProgressHUD: abb9136ae23c85204236828562cb9a8ec98efb44
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxKeyboard: 4f5863f43b4ff0cbb2a20b94688d6b80c8a43c14
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
+  ZLPhotoBrowser: 165f9afee5d238a2c39b52128a94a4445aae2fdf
+
+PODFILE CHECKSUM: 20e19ec4582f9e5578e6a1e40fcfcf4beda7d355
+
+COCOAPODS: 1.16.2
